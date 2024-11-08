@@ -67,3 +67,8 @@ No react router cada router recebe um caminho path e o component elemente que de
 O caso do index foi uma alternativa para dizer que , ao acessar o caminho da rota pai, as outra rotas devem ser acessadas , ou seja quando acessar a rota pai o componenete Hoem deve ser exibido 
 
 * Lembrete rápido - index arquivo de componenete * style arquivo de estilização 
+
+
+O diretório node_modules é onde todas as dependências do seu projeto são instaladas. Ele é essencial para qualquer projeto que use Node.js, npm ou yarn, e é particularmente comum em aplicações JavaScript e TypeScript
+
+O arquivo de estilo ( styleed conponents ) Precisa estar separada do arquivo de estrutura do html 
