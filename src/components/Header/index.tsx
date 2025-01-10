@@ -6,7 +6,9 @@ import { NavLink } from "react-router-dom";
 export function Header() {
     return(
         <HeaderContainer>
-            <img src={logoIgnite} alt=""/>
+            <a href="https://app.rocketseat.com.br/" target="_blank">
+                <img src={logoIgnite} alt=""/>
+            </a>
             <nav>
                 <NavLink to="/" title="Timer" >          {/* Componente do *reactDOM* que direciona para segunda página title acessibilidade */}
                     <Timer size={24} />
