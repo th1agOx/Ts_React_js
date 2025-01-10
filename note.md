@@ -72,3 +72,7 @@ O caso do index foi uma alternativa para dizer que , ao acessar o caminho da rot
 O diretório node_modules é onde todas as dependências do seu projeto são instaladas. Ele é essencial para qualquer projeto que use Node.js, npm ou yarn, e é particularmente comum em aplicações JavaScript e TypeScript
 
 O arquivo de estilo ( styleed conponents ) Precisa estar separada do arquivo de estrutura do html 
+
+* Como trazer uma lista de susgestão como hover no input, que siga uma linha de parametros de projetos já setados anteriormente 
+
+RESPOSTA = <datalist> que seria uma lista de sugetões para o input com a adição de um list um parametro dentro do input para receber as <options> dentro do <datalist> 
