@@ -48,7 +48,7 @@ Pra cada página da aplicação, uma rota
 
     Dependências: Sempre verifique se todas as dependências necessárias estão listadas no package.json. Se uma dependência estiver faltando, você pode adicionar manualmente e depois executar npm install
 
-* Se você encontrar problemas estranhos com dependências, limpar o cache pode ajudar (npm cache clean --force
+* Se você encontrar problemas estranhos com dependências, limpar o cache pode ajudar npm cache clean --force
 
 * é preciso envolver toda a aplicação em react com o componenet teamprovider e com o browserouter
 
@@ -76,3 +76,19 @@ O arquivo de estilo ( styleed conponents ) Precisa estar separada do arquivo de 
 * Como trazer uma lista de susgestão como hover no input, que siga uma linha de parametros de projetos já setados anteriormente 
 
 RESPOSTA = <datalist> que seria uma lista de sugetões para o input com a adição de um list um parametro dentro do input para receber as <options> dentro do <datalist> 
+
+
+## HISTORY 
+
+*interface em typescript servindo para criação de propriedades mesmo em componentes estilizados , inclusive dentro do arquivo ts 
+
+- detalhes para o desenvolvimento : 
+Pensar sempre em começar pelo componente main 
+
+- não se preocupar com os detalhes. Em um primeiro momento é importante monte o esqueleto para ver em tela 
+
+*** QUANDO ESTAMOS USANDO STYLED COMPONENTS E EXISTE UM ELEMENTO ESTILIZADO EM TELA, O ARQUIVO NÃO PRECISA SER EXPORTADO, ELE PODE PERMANECER NO NOSSO ARQUIVO DE ESTILIZAÇÃO C TS  
+
+-- componenete 'status concluido' ligado ao componenete de duração ( input de tempo )
+-- componenete 'status interrompido ' acionado caso o tempo seja < menor que o componenete duração setado inicialmente   
+-- criar componente para o input de timer
