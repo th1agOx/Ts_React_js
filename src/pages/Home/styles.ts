@@ -117,6 +117,7 @@ export const StartCountdownButton = styled.button`                       //trago
 
     background-color: ${(props) => props.theme['green-500']};
     color: ${(props) => props.theme['white']};
+    font-size: 1.6rem ;
 
     &:not(:disabled):hover{
         background-color: ${props => props.theme['green-700']};       
